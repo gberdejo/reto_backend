@@ -6,13 +6,13 @@
 ### EndPoints
 
 - BuscarPeliculas
-    metodo: GET,
-    parametros: 
+    - metodo: GET,
+    - parametros: 
         - /peliculas?tipo=1 : Consulta la información guardada en la base de datos.
         - /peliculas?tipo=2 : Consulta la información de la api "http https://swapi.py4e.com/api/films".
 - CrearPelicula
-    metodo: POST,
-    parametros: 
+    - metodo: POST,
+    - parametros: 
         - titulo: string;
         - id_episodio: number;
         - introduccion: string;
@@ -28,4 +28,4 @@
         - fecha_creacion: string;
         - fecha_editado: string;
 
-Nota: configurar el nombre de la tabla en /config/index.ts - "tabla_peliculas"
+> Nota: configurar el nombre de la tabla en /config/index.ts - "tabla_peliculas"
